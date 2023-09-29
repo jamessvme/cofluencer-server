@@ -699,6 +699,7 @@ router.put('/unfollow/:userId', (req, res, next) => {
       })
       .catch(next);
   }
+  console.log('test');
 });
 
 module.exports = router;
